@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import argparse
 import sys
-from datetime import UTC, datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 PYTHON_ROOT = Path(__file__).resolve().parents[1]
@@ -49,7 +49,7 @@ def main() -> int:
     )
     message.set_property(
         msg.PropertyId.MESSAGE_DELIVERY_TIME,
-        datetime(2026, 3, 15, 10, 30, tzinfo=UTC),
+        datetime(2026, 3, 15, 10, 30, tzinfo=timezone.utc),
     )
     message.set_property(
         msg.PropertyId.DISPLAY_TO,

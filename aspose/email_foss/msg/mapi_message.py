@@ -6,7 +6,7 @@ import re
 import struct
 import uuid
 from dataclasses import dataclass, field, replace
-from datetime import UTC, datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from email import policy
 from email.message import EmailMessage
 from email.parser import BytesParser, Parser
@@ -2164,3 +2164,4 @@ def _object_reserved_marker(property: MapiProperty) -> int:
     if property.property_id == int(CommonMessagePropertyId.ATTACH_DATA_BINARY):
         return ATTACH_METHOD_EMBEDDED if property.property_type == int(PropertyTypeCode.PTYP_OBJECT) else ATTACH_METHOD_BY_VALUE
     return ATTACH_METHOD_BY_VALUE
+UTC = timezone.utc
