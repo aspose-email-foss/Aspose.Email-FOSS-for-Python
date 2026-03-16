@@ -118,6 +118,7 @@ message.save("message.msg")
 
 - Repository: <https://github.com/aspose-email-foss/Aspose.Email-FOSS-for-Python>
 - Issues: <https://github.com/aspose-email-foss/Aspose.Email-FOSS-for-Python/issues>
+- PyPI: <https://pypi.org/project/aspose-email-foss/>
 
 ## Development
 
