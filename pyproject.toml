@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aspose-email-foss"
+version = "26.3"
+description = "Pure Python CFB and Outlook MSG toolkit for reading, projecting, and writing message data."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+  {name = "Aspose.Email FOSS Contributors"},
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Communications :: Email",
+]
+keywords = ["aspose", "email", "cfb", "msg", "outlook", "mapi"]
+
+[project.urls]
+Homepage = "https://github.com/aspose-email-foss/Aspose.Email-FOSS-for-Python"
+Repository = "https://github.com/aspose-email-foss/Aspose.Email-FOSS-for-Python"
+Issues = "https://github.com/aspose-email-foss/Aspose.Email-FOSS-for-Python/issues"
+Documentation = "https://github.com/aspose-email-foss/Aspose.Email-FOSS-for-Python#readme"
+
+[tool.setuptools]
+package-dir = {"" = "."}
+include-package-data = false
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["aspose.email_foss", "aspose.email_foss.*"]
+exclude = ["tests", "tests.*"]
+namespaces = true

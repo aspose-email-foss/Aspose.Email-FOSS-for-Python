@@ -1,0 +1,39 @@
+Aspose.Email FOSS for Python
+
+Package:
+- aspose-email-foss
+
+Public import root:
+- aspose.email_foss
+
+Main modules:
+- aspose.email_foss.msg
+- aspose.email_foss.cfb
+
+High-level API:
+- aspose.email_foss.msg.MapiMessage
+
+Low-level MSG API:
+- aspose.email_foss.msg.MsgReader
+- aspose.email_foss.msg.MsgWriter
+- aspose.email_foss.msg.MsgDocument
+
+Low-level CFB API:
+- aspose.email_foss.cfb.CFBReader
+- aspose.email_foss.cfb.CFBWriter
+- aspose.email_foss.cfb.CFBDocument
+
+Docs:
+- README.md
+- CITATION.cff
+- PUBLIC_API.md
+- examples/README.md
+- CHANGELOG.md
+
+Examples:
+- examples/create_msg_and_eml.py
+- examples/msg_reader.py
+- examples/msg_summary.py
+
+Run tests:
+- python -m unittest discover -s tests -v

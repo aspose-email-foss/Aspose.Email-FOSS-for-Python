@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: Aspose.Email FOSS for Python
+message: If you use this package in published work, please cite the project repository.
+type: software
+repository-code: https://github.com/aspose-email-foss/Aspose.Email-FOSS-for-Python
+url: https://github.com/aspose-email-foss/Aspose.Email-FOSS-for-Python
+authors:
+  - name: Aspose.Email FOSS Contributors
