@@ -114,12 +114,10 @@ message = msg.MapiMessage.from_email_message(email_message)
 message.save("message.msg")
 ```
 
-## Useful Links
+## Links
 
 - Repository: <https://github.com/aspose-email-foss/Aspose.Email-FOSS-for-Python>
-- Aspose.Email for Python product page: <https://products.aspose.com/email/python-net/>
-- Aspose.Email for Python documentation: <https://docs.aspose.com/email/python-net/>
-- Aspose.Email support forum: <https://forum.aspose.com/c/email/9>
+- Issues: <https://github.com/aspose-email-foss/Aspose.Email-FOSS-for-Python/issues>
 
 ## Development
 
